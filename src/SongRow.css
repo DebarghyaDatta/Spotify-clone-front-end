@@ -1,0 +1,30 @@
+.songRow {
+  margin-left: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  color: white;
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+  font-size: small;
+}
+
+.songRow:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  transition: 100ms transform ease-in;
+  border-radius: 10px;
+  transform: scale(1.03);
+  color: black;
+}
+
+.songRow__info {
+  margin-left: 20px;
+}
+
+.songRow__album {
+  height: 40px;
+  width: 40px;
+}
